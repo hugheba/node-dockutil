@@ -1,0 +1,24 @@
+{
+  "name": "dockutil",
+  "version": "1.0.0",
+  "description": "Docker/Kubernetes build and deploy utility",
+  "main": "dockutil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryan Hughes <hugheba@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "dockutil": "./dockutil.js"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^0.8.2",
+    "commander": "^2.19.0",
+    "dockerode": "^2.5.8",
+    "dockerode-promise": "^0.1.0",
+    "dotenv": "^7.0.0",
+    "git-repo-info": "^2.1.0",
+    "kubernetes-client": "^6.12.1",
+    "tar-fs": "^2.0.0"
+  }
+}
